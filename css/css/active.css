@@ -1,0 +1,30 @@
+.menu-1 ul li.active a {
+    color: #007bff; /* Warna teks aktif */
+    font-weight: bold; /* Membuat teks lebih tebal */
+    text-decoration: underline; /* Garis bawah pada teks aktif */
+}
+.menu-1 ul {
+    list-style: none; /* Menghapus bullet dari list */
+    padding: 0;
+}
+
+.menu-1 ul li {
+    display: inline-block; /* Menampilkan item menu secara horizontal */
+    margin-right: 20px; /* Jarak antar item */
+}
+
+.menu-1 ul li a {
+    text-decoration: none; /* Menghapus garis bawah dari link */
+    color: #000; /* Warna teks link */
+    transition: color 0.3s ease; /* Animasi saat hover */
+}
+
+.menu-1 ul li a:hover {
+    color: #007bff; /* Warna saat hover */
+}
+
+.menu-1 ul li.active a {
+    color: #007bff; /* Warna teks aktif */
+    font-weight: bold; /* Membuat teks lebih tebal */
+    text-decoration: underline; /* Garis bawah pada teks aktif */
+}
